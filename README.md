@@ -1,5 +1,5 @@
 
-![Aviation Accident Data Analysis](./images/plane readme.jpeg)
+![Aviation Accident Data Analysis](./images/plane readme.jpg)
 
 # Aviation Accident Data Analysis
 
@@ -7,14 +7,12 @@
 
 ## Overview
 
-### Overview
-
 The company is planning to enter into the aviation industry in order to diversify its assets. Specifically, interested in purchasing and operating airplanes for commercial and private enterprises. A risk assessment is essential to minimize liability and maximize safety. 
 This project analyzes data from the National Transportation Safety Board that includes aviation accident data from 1962 to 2023 about civil aviation accidents and selected incidents in the United States and international waters.
 
 A descriptive analysis of the data, including accident frequency, severity by aircraft make and model, impact of weather conditions, relationship between flight purpose (e.g., private vs. commercial), and risks.
 
-This analysis can be used by the company to determine which aircraft has the lowest operational, financial, and safety risks.
+The company can use this analysis to determine which aircraft has the lowest operational, financial, and safety risks.
 
 ## Business Problem
 
@@ -39,37 +37,71 @@ This project uses descriptive analysis, including which summarizes key metrics l
 ## Results
 
 - Model of the aircraft: model 737. Despite having the most fatalities, it also has the most people who are not hurt. If more safety precautions are put in place, the number of uninjured may outnumber the injured.
+[plane model](./images/plane model-1.png)
 
 - Make of the aircraft: Boeing. It appears to be the safest due to the large number of uninjured and moderate amount of injuries.
+  [plane make](./images/plane make-1.png)
 - Professionally built planes. Professionally built planes have proven to have more uninjured passengers as compared to amateur built ones.
 - Type of engine: turbo tan engine it has the most number of uninjured passangers.
-
 If interested in a number of options, consider the following makes:
 - Boeing - McDonnell Douglas - Piper - Airbus
 
-## Conclusions
+## Overall Conclusions:
 
-This analysis leads to three recommendations for improving operations of the Austin Animal Center:
+Based on the analysis of aviation accident data, we can draw the following conclusions:
 
-- **Engage in targeted outreach campaigns for dogs that have been sheltered at AAC for more than 30 days.** While most dogs will have been placed after 30 days, this may help reduce the number of dogs that end up having extended stays, potentially requiring many more months of care.
-- **Reduce current spending until the numbers of intakes and sheltered animals return to normal.** Given the reduced activity during this period, AAC should consider ways to temporarily reduce costs by changing space utilization or staffing.
-- **Hire seasonal staff and rent temporary space for May through December.** To accommodate the high volume of intakes and number of sheltered animals in the spring and fall, AAC should leverage seasonal resources, rather than full-year ones. This will allow AAC to cut back on expenditures during the months when there is lower
+1.  **Plane Model Impact**:
+    *   Different plane models exhibit varying levels of safety.
+    *   Model 737 has the most fatal injuries and also the most uninjured passengers, indicating it is a high-volume aircraft but also involved in more severe incidents.
+    *   Models 172 and 152 show higher incidences of serious and minor injuries, respectively.
+
+2.  **Plane Make Impact**:
+    *   Cessna aircraft are involved in accidents with the highest numbers of fatal, serious, and minor injuries.
+    *   Boeing aircraft, while involved in accidents, have the most uninjured passengers, which may suggest better safety features or structural integrity.
+
+3.  **Amateur-Built Planes**:
+    *   Non-amateur-built planes are generally safer, with higher numbers of uninjured passengers and fewer fatal injuries compared to amateur-built planes.
+    *   Amateur-built planes show a higher incidence of serious injuries. This indicates a potential need for stricter regulations or more rigorous safety checks for amateur-built aircraft.
+
+4.  **Engine Type**:
+    *   Turbo fan engines are associated with the highest number of fatal and minor injuries, but they also have the highest number of uninjured passengers.
+    *   LR engines have a higher incidence of serious injuries.
+
+5.  **Number of Engines**:
+    *   Planes with four engines are involved in the most accidents with fatal injuries, while planes with eight engines have the most serious injuries.
+    *   Planes with three engines show the highest number of minor injuries and uninjured passengers.
+    *   There is very weak correlation between the number of engines and the severity of injuries or the number of uninjured passengers. This suggests that the number of engines is not a primary factor in determining the outcome of an accident.
 
 ### Next Steps
 
-Further analyses could yield additional insights to further improve operations at AAC:
+**Further Investigation of High-Risk Models**:
+    *   Conduct deeper analyses of plane models like 737, 172, and 152 to understand the underlying causes of accidents and injury patterns. This could involve examining accident reports in detail.
 
-- **Better prediction of animals that are likely to have long stays.** This modeling could use already available data, such as breed and intake condition.
-- **Model need for medical support.** This modeling could predict the need for specialized personnel to address animals' medical needs, including neutering, using intake condition and sex data.
-- **Predicting undesirable outcomes.** This modeling could identify animals that are more likely to have undesirable outcomes (e.g. Euthanasia) for targeted medical support or outreach.
+2.  **Improve Safety in Amateur-Built Planes**:
+    *   Consider enhancing safety regulations and inspections for amateur-built aircraft, given their higher incidence of serious injuries.
+    *   Educational campaigns for builders and pilots of these aircraft could help in reducing accidents.
 
+3.  **Engine Type Safety Reviews**:
+    *   Conduct studies to investigate the safety performance of different engine types, focusing on why turbo fan and LR engines might be associated with more severe injury outcomes.
+    *   Consider whether different engine types should be subject to different maintenance schedules or pilot training.
+
+4.  **Focus Beyond Number of Engines**:
+    *   Given the weak correlation between the number of engines and accident outcomes, safety efforts should focus on factors other than the number of engines.
+    *   Investigate plane design, emergency protocols, pilot training, and weather conditions to identify better predictors of accident outcomes.
+
+5.  **Data Collection and Analysis**:
+    *   Improve data collection on aviation accidents, ensuring consistent recording of details about plane models, engines, and injury types.
+    *   Perform periodic analyses of the data to identify emerging safety issues or trends.
+
+6. **Focus on plane make**:
+    * Further investigations should take place regarding Cessna and boeing safety records.
+    *  Review and potentially strengthen safety standards for Cessna aircraft.
+    *  
 ## For More Information
 
-See the full analysis in the [Jupyter Notebook](./animal-shelter-needs-analysis.ipynb) or review this [presentation](./Animal_Shelter_Needs_Presentation.pdf).
+See the full analysis in the [Jupyter Notebook](./aviation_data.ipynb) or review this [presentation](./Aviation_Data_Presentation.pdf).
 
-For additional info, contact Alison Peebles Madigan at [alison.peeblesmadigan@flatironschool.com](mailto:alison.peeblesmadigan@flatironschool.com)
-
-![logo](./images/aac_logo_tall.jpg)
+For additional info, contact Lucinda Wanjiru at [lucinda.wanjiru@student.moringaschool.com](mailto:lucinda.wanjiru@student.moringaschool.com)
 
 ## Repository Structure
 
@@ -77,6 +109,6 @@ For additional info, contact Alison Peebles Madigan at [alison.peeblesmadigan@fl
 ├── data
 ├── images
 ├── README.md
-├── Animal_Shelter_Needs_Presentation.pdf
-└── animal_shelter_needs_analysis.ipynb
+├── Aviation_Data_Presentation.pdf
+└── aviation_data.ipynb
 ```
