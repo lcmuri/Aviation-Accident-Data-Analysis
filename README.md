@@ -1,5 +1,4 @@
-
-![Aviation Accident Data Analysis](./images/plane readme.jpg)
+![Aviation Accident Data Analysis](./images/plane-readme.jpg)
 
 # Aviation Accident Data Analysis
 
@@ -37,10 +36,10 @@ This project uses descriptive analysis, including which summarizes key metrics l
 ## Results
 
 - Model of the aircraft: model 737. Despite having the most fatalities, it also has the most people who are not hurt. If more safety precautions are put in place, the number of uninjured may outnumber the injured.
-[plane model](./images/plane model-1.png)
+![plane model](./images/plane-model-1.png)
 
 - Make of the aircraft: Boeing. It appears to be the safest due to the large number of uninjured and moderate amount of injuries.
-  [plane make](./images/plane make-1.png)
+  ![plane make](./images/plane-make-1.png)
 - Professionally built planes. Professionally built planes have proven to have more uninjured passengers as compared to amateur built ones.
 - Type of engine: turbo tan engine it has the most number of uninjured passangers.
 If interested in a number of options, consider the following makes:
