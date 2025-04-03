@@ -95,10 +95,10 @@ Based on the analysis of aviation accident data, we can draw the following concl
 6. **Focus on plane make**:
     * Further investigations should take place regarding Cessna and boeing safety records.
     *  Review and potentially strengthen safety standards for Cessna aircraft.
-    *  
+      
 ## For More Information
 
-See the full analysis in the [Jupyter Notebook](./aviation_data.ipynb) or review this [presentation](./Aviation_Data_Presentation.pdf).
+See the full analysis in the [Jupyter Notebook](./aviation_data_notebook.ipynb) or review this [presentation](./presentation.pdf).
 
 For additional info, contact Lucinda Wanjiru at [lucinda.wanjiru@student.moringaschool.com](mailto:lucinda.wanjiru@student.moringaschool.com)
 
@@ -107,7 +107,8 @@ For additional info, contact Lucinda Wanjiru at [lucinda.wanjiru@student.moringa
 ```
 ├── data
 ├── images
+├── pdf
 ├── README.md
-├── Aviation_Data_Presentation.pdf
-└── aviation_data.ipynb
+├── presentation.pdf
+└── aviation_data_notebook.ipynb
 ```
